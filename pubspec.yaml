@@ -1,0 +1,11 @@
+name: handlesystem
+description: Handle Object Pool System
+version: 0.0.1
+authors: 
+- John McCutchan <john@johnmccutchan.com>
+homepage: https://github.com/johnmccutchan/handlesystem
+dependencies:
+  unittest:
+    sdk: unittest
+  handlesystem:
+    git: https://github.com/johnmccutchan/handlesystem.git
