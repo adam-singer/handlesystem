@@ -7,5 +7,3 @@ homepage: https://github.com/johnmccutchan/handlesystem
 dependencies:
   unittest:
     sdk: unittest
-  handlesystem:
-    git: https://github.com/johnmccutchan/handlesystem.git
