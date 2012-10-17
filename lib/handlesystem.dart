@@ -20,6 +20,6 @@
 
 */
 
-#library('handlesystem');
+#library('handle_system');
 #source('src/handle/handle.dart');
 #source('src/handle/handle_system.dart');
