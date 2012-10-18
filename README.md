@@ -14,10 +14,9 @@ dependencies:
   handlesystem:
     git: https://github.com/johnmccutchan/handlesystem.git
 ```
-and run **pub install** to install **handlesystem** (including its dependencies). Now add import
+and run **pub install** to install **handle_system** (including its dependencies). Now add import
 
 ```
-#import('package:handlesystem/handlesystem.dart');
+#import('package:handle_system/handle_system.dart');
 ```
-
 
