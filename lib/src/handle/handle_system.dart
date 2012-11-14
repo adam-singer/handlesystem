@@ -1,3 +1,5 @@
+part of handle_system;
+
 /*
 
   Copyright (C) 2012 John McCutchan <john@johnmccutchan.com>
@@ -48,10 +50,10 @@ class HandleSystem {
     _dynamicCapacity = _totalCapacity - _staticCapacity;;
   }
 
-  int get maxStaticIndex() => _staticCapacity;
-  int get dynamicSize() => _dynamicUsed;
-  int get dynamicCapacity() => _dynamicCapacity;
-  int get dynamicAvailable() => _dynamicCapacity - _dynamicUsed;
+  int get maxStaticIndex => _staticCapacity;
+  int get dynamicSize => _dynamicUsed;
+  int get dynamicCapacity => _dynamicCapacity;
+  int get dynamicAvailable => _dynamicCapacity - _dynamicUsed;
 
   /// Returns true if index is in the static range
   bool isStaticIndex(int index) => index >= 0 && index < _staticCapacity;
